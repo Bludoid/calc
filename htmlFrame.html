@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <title>
+        MyCalc Calculator
+    </title>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Ali">
+    <meta name="<keywords" content="calculator, javascript, css, html">
+    <meta name="description" content="functional calculator">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+
+<div id="calc">
+   
+<p id="meDisplay"></p> 
+
+<br>
+
+<button type="button" id="mr">MR</button>
+<button type="button" id="7" onclick="clicky(this.id)">7</button>
+<button type="button" id="8" onclick="clicky(this.id)">8</button>
+<button type="button" id="9" onclick="clicky(this.id)">9</button>
+<button type="button" id="divided" onclick="clickDevided()">/</button>
+
+<br>
+
+<button type="button" id="mc">MC</button>
+<button type="button" id="4" onclick="clicky(this.id)">4</button>
+<button type="button" id="5" onclick="clicky(this.id)">5</button>
+<button type="button" id="6" onclick="clicky(this.id)">6</button>
+<button type="button" id="times" onclick="clickTimes()">x</button>
+
+<br>
+
+<button type="button" id="m+">M+</button>
+<button type="button" id="1" onclick="clicky(this.id)">1</button>
+<button type="button" id="2" onclick="clicky(this.id)">2</button>
+<button type="button" id="3" onclick="clicky(this.id)">3</button>
+<button type="button" id="minus" onclick="clickMinus()">-</button>
+
+<br>
+
+<button type="button" id="clr" class="clear" onclick="clickCLR()">CLR</button>
+<button type="button" id="0" onclick="clicky(this.id)">0</button>
+<button type="button" id="." onclick="clicky(this.id)">.</button>
+<button type="button" id="equal" onclick="clickEqual()">=</button>
+<button type="button" id="plus" onclick="clickPlus()">+</button>    
+
+    
+</div>
+
+    
+   
+<script src="myScript.js">
+</script>
+
+</body>
+
+</html>
